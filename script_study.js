@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const quizContainer = document.querySelector(".quiz-container");
 
     function loadQuestions() {
-        fetch("../questions.json")
+        fetch("https://systolicpilot.github.io/a320prep/questions.json")
             .then(response => response.json())
             .then(data => {
                 questionBank = data;
