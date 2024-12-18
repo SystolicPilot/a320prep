@@ -92,6 +92,9 @@ body {
     background-color: #28a745;
     transition: width 0.3s ease-in-out;
     border-radius: 10px 0 0 10px;
+    text-align: center; /* Align x/y */
+    line-height: 15px; /* Vertically center text */
+    color: #fff; /* White text for visibility */
 }
 
 /* General Button Styling */
@@ -134,6 +137,8 @@ button.disabled {
 #restart-btn:hover {
     background-color: #0056b3;
 }
+
+/* Question Text Styling */
 #question-text {
     font-size: 22px;
     font-weight: bold;
@@ -141,6 +146,8 @@ button.disabled {
     margin-bottom: 20px;
     text-align: center;
 }
+
+/* Title Styling */
 h1 {
     font-size: 28px;
     font-weight: bold;
@@ -148,11 +155,11 @@ h1 {
     color: #007bff; /* Optional: Match button styling for consistency */
 }
 
+/* Title Divider */
 .title-divider {
     border: none;
     height: 2px;
     background-color: #ccc; /* Light grey line */
-    width: 95%; /* Makes the line 3/4 of the container width */
+    width: 75%; /* Makes the line 3/4 of the container width */
     margin: 10px auto 20px; /* Centers the line and adds spacing */
 }
-
