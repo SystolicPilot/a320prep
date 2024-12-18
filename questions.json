@@ -1,0 +1,27 @@
+[
+  {
+      "question": "What is the normal operating pressure for the hydraulic system?",
+      "answers": ["3000 psi", "2500 psi", "3500 psi", "4000 psi"],
+      "correct": 0
+  },
+  {
+      "question": "What does the RAT power?",
+      "answers": ["Blue hydraulic system", "Green hydraulic system", "Yellow hydraulic system", "All systems"],
+      "correct": 0
+  },
+  {
+      "question": "What is the function of the PTU?",
+      "answers": ["Power transfer between hydraulic systems", "Provides AC power", "Monitors fuel quantity", "None of the above"],
+      "correct": 0
+  },
+  {
+      "question": "How many fuel tanks are there in an A320?",
+      "answers": ["4", "5", "6", "2"],
+      "correct": 1
+  },
+  {
+      "question": "What does ECAM stand for?",
+      "answers": ["Electronic Centralized Aircraft Monitoring", "Engine Condition and Monitoring", "Electronic Control and Alerting Module", "Engine Check and Management"],
+      "correct": 0
+  }
+]

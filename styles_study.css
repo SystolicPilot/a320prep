@@ -1,0 +1,158 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Quiz Container */
+.quiz-container {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Answer Buttons */
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-grid button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.btn-grid button:hover {
+    background-color: #0056b3;
+}
+
+.btn-grid button.correct {
+    background-color: #28a745;
+    cursor: not-allowed;
+}
+
+.btn-grid button.wrong {
+    background-color: #dc3545;
+    cursor: not-allowed;
+}
+
+/* Navigation Container */
+#navigation-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Chevrons */
+.chevron {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.3s;
+}
+
+.chevron.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Progress Bar */
+#progress-bar {
+    flex-grow: 1;
+    height: 15px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+#progress-fill {
+    height: 100%;
+    width: 0%;
+    background-color: #28a745;
+    transition: width 0.3s ease-in-out;
+    border-radius: 10px 0 0 10px;
+}
+
+/* General Button Styling */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Score Page Try Again Button */
+#restart-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+#restart-btn:hover {
+    background-color: #0056b3;
+}
+#question-text {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333; /* Darker text for contrast */
+    margin-bottom: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Slight gap between title and line */
+    color: #007bff; /* Optional: Match button styling for consistency */
+}
+
+.title-divider {
+    border: none;
+    height: 2px;
+    background-color: #ccc; /* Light grey line */
+    width: 95%; /* Makes the line 3/4 of the container width */
+    margin: 10px auto 20px; /* Centers the line and adds spacing */
+}
+
